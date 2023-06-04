@@ -1,54 +1,84 @@
 {
   "exec": [
     {
-      "Name": "Aurora Yan",
-      "Position": "President/Tournament Director",
-      "photoName": "Savan_Patel"
+      "Name": "Aurora Yuan",
+      "Position": "Co-President/Tournament Director",
+      "photoName": "Aurora_Yuan"
     },
     {
-      "Name": "Jackson Powell",
+      "Name": "Teodora Dragic",
+      "Position": "Co-President/Tournament Director",
+      "photoName": "Teodora_Dragic"
+    },
+    {
+      "Name": "Tyler Turek",
       "Position": "VP Finance",
-      "photoName": "Jackson_Powell"
+      "photoName": "Tyler_Turek"
+    },
+    {
+      "Name": "Arav Nangia",
+      "Position": "VP Operations",
+      "photoName": "Arav_Nangia"
+    },
+    {
+      "Name": "Adya Gupta",
+      "Position": "VP Communications",
+      "photoName": "Adya_Gupta"
+    },
+    {
+      "Name": "Rishi Patel",
+      "Position": "VP Marketing",
+      "photoName": "Rishi_Patel"
     },
     {
       "Name": "Jacqueline Chan",
-      "Position": "VP Operations",
-      "photoName": "Jacqueline_Tse"
+      "Position": "Social Chair",
+      "photoName": "Jacqueline_Chan"
     },
     {
-      "Name": "Shivani Nellore",
-      "Position": "VP Communications",
-      "photoName": "Shivani_Nellore"
+      "Name": "Seamus Wang",
+      "Position": "Technology Chair",
+      "photoName": "Seamus_Wang"
     },
     {
-      "Name": "Yi-An Hsieh",
-      "Position": "VP Marketing, Social Chair",
-      "photoName": "Yi-An_Hsieh"
+      "Name": "Charis Gao",
+      "Position": "Tournament Volunteer Coordinator",
+      "photoName": "Charis_Gao"
     },
     {
-      "Name": "Christina Kim",
-      "Position": "Urban Initiative Chair",
-      "photoName": "Christina_Kim"
+      "Name": "Suraj Oruganti",
+      "Position": "Urban Initiative Co-Coordinator",
+      "photoName": "Suraj_Oruganti"
     },
     {
-      "Name": "Brain Lee",
-      "Position": "Urban Initiative Chair",
-      "photoName": "Brian_Lee"
+      "Name": "Cynthia Dong",
+      "Position": "Urban Initiative Co-Coordinator",
+      "photoName": "Cynthia_Dong"
     },
     {
-      "Name": "Zachary Stotz",
+      "Name": "Joseph Dong",
       "Position": "Biology Director",
-      "photoName": "Zachary_Stotz"
+      "photoName": "Joseph_Dong"
     },
     {
-      "Name": "David Lang",
+      "Name": "Jimmy Bianchi",
       "Position": "Chemistry Director",
-      "photoName": "David_Lang"
+      "photoName": "Jimmy_Bianchi"
     },
     {
-      "Name": "Belinda Xi",
-      "Position": "Technology Director",
-      "photoName": "Belinda_Xi"
+      "Name": "Xiangyu Chen",
+      "Position": "Builds Director",
+      "photoName": "Xiangyu_Chen"
+    },
+    {
+      "Name": "Eric Tao",
+      "Position": "Earth and Space Science Director",
+      "photoName": "Eric_Tao"
+    },
+    {
+      "Name": "Samuel Lee",
+      "Position": "Nature of Science Director",
+      "photoName": "Samuel_Lee"
     }
   ],
   "team": [
