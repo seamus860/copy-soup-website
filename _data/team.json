@@ -33,7 +33,7 @@
     {
       "Name": "Jacqueline Chan",
       "Position": "Social Chair",
-      "photoName": "Jacqueline_Chan"
+      "photoName": "Jacqueline_Tse"
     },
     {
       "Name": "Seamus Wang",
@@ -79,6 +79,11 @@
       "Name": "Samuel Lee",
       "Position": "Nature of Science Director",
       "photoName": "Samuel_Lee"
+    },
+    {
+      "Name": "Jackson Powell",
+      "Position": "Former Co-President",
+      "photoName": "Jackson_Powell"
     }
   ],
   "team": [
