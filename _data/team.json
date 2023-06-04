@@ -38,7 +38,11 @@
     {
       "Name": "Seamus Wang",
       "Position": "Technology Chair",
-      "photoName": "Seamus_Wang"
+      "photoName": "Seamus_Wang",
+      "Bio": "Test",
+      "Year": "Senior (2024)",
+      "Studies": "Biology",
+      "Favorite Soup": "Maryland Cream of Crab"
     },
     {
       "Name": "Charis Gao",
