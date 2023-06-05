@@ -15,7 +15,7 @@ body {
     background: url({{ site.baseurl }}/img/s8.jpg) no-repeat center;
     background-repeat: no-repeat;
     background-size: cover;
-    font: 'open sans';
+    font: 'Caveat';
     font-weight: 400;
 }
 
@@ -37,10 +37,9 @@ body {
 .front-text {
     color: #EEEDEA;
     text-align: center;
-    font: 'Caveat';
     font-weight: 500;
     margin-bottom: -5px;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 0 black;
 }
 
 .front-detail-text {
