@@ -1,2 +1,2 @@
-# Project Sambar
-Bettering the SOUP website for 2023-2024 Invitational
+# Project SAMBAR
+Testing changes to the website in preparation for the 2023-2024 Invitational
