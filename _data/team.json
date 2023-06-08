@@ -156,5 +156,22 @@
       "Position": "Co-President",
       "Year": "2022-2023"
     }
+  ],
+  "teamSix": [
+    {
+      "Name": "Savan Patel",
+      "Position": "President/Tournament Director",
+      "Year": "2021-2022"
+    },
+    {
+      "Name": "Jackson Powell",
+      "Position": "VP Finance",
+      "Year": "2021-2022"
+    },
+    {
+      "Name": "JaJacqueline Chan",
+      "Position": "VP Operations",
+      "Year": "2021-2022"
+    }
   ]
 }
