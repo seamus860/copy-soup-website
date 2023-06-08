@@ -42,11 +42,20 @@ permalink: /ourTeam/
     </div>
         
 <div class="">
-        <h2><span>Past Executive Board Members</span></h2>
+        <h2><span>Past Executive Boards</span></h2>
+        <h3>2022-2023</h3>
     {% assign team = site.data.team["teamSeven"] %}     
     {% for member in team %}
         <li><b>{{ member.Name }}</b> - {{ member.Position }} ({{ member.Year }})</li>
-        {% endfor %}
+    {% endfor %}
+</div>
+
+<div class="">
+        <h3>2021-2022</h3>
+    {% assign team = site.data.team["teamSix"] %}     
+    {% for member in team %}
+        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
+    {% endfor %}
 </div>
 
         <!--
