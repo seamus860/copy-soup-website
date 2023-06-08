@@ -43,21 +43,13 @@ permalink: /ourTeam/
         
 <div class="">
         <h2><span>Past Executive Board Members</span></h2>
-        <div class="row">
-            {% assign team = site.data.team["team"] %}
-            {% for member in team %}
-            {% if member.Name %}
-            {% if member.Position %}
-            {% if member.Year %}
-               <p><b>{{ member.Name }}</b>, {{ member.Position }}, ({{ member.Year }})<br/>
-               </p>
-        </div>
-    {% endif %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+    {% assign team = site.data.team["team"] %}     
+    {% for member in team %}
+        <li><b>{{ member.Name }}</b> - {{ member.Position }} ({{ member.Position }})</li>
+        {% endfor %}
 </div>
-    
+
+        <!--
     <div class="">
         <h2><span>Committee Members</span></h2>
         <div class="row">
@@ -100,3 +92,4 @@ permalink: /ourTeam/
         {% endfor %}
     </ul>
 </div>
+-->
