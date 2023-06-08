@@ -148,30 +148,55 @@
   "teamSeven": [
     {
       "Name": "Jackson Powell",
-      "Position": "Co-President",
+      "Position": "Co-President/Tournament Co-Director",
       "Year": "2022-2023"
     },
     {
       "Name": "Jacqueline Chan",
-      "Position": "Co-President",
+      "Position": "Co-President/Tournament Co-Director",
       "Year": "2022-2023"
     }
   ],
   "teamSix": [
     {
       "Name": "Savan Patel",
-      "Position": "President/Tournament Director",
-      "Year": "2021-2022"
+      "Position": "President/Tournament Director"
     },
     {
       "Name": "Jackson Powell",
-      "Position": "VP Finance",
-      "Year": "2021-2022"
+      "Position": "VP Finance"
     },
     {
-      "Name": "JaJacqueline Chan",
-      "Position": "VP Operations",
-      "Year": "2021-2022"
+      "Name": "Jacqueline Chan",
+      "Position": "VP Operations"
+    },
+    {
+      "Name": "Shivani Nellore",
+      "Position": "VP Communications"
+    },
+    {
+      "Name": "Yi-An Hsieh",
+      "Position": "VP Marketing, Social Chair"
+    },
+    {
+      "Name": "Christina Kim",
+      "Position": "Urban Initiative Chair"
+    },
+    {
+      "Name": "Brain Lee",
+      "Position": "Urban Initiative Chair"
+    },
+    {
+      "Name": "Zachary Stotz",
+      "Position": "Biology Director"
+    },
+    {
+      "Name": "David Lang",
+      "Position": "Chemistry Director"
+    },
+    {
+      "Name": "Belinda Xi",
+      "Position": "Technology Director"
     }
   ]
 }
