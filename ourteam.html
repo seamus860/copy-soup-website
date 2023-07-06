@@ -40,7 +40,17 @@ permalink: /ourTeam/
         </div>
         <hr>
     </div>
-        
+
+<div class="">
+    <h2><span>2023-2024 Executive Board (Eighth Invitational)</span></h2>
+    {% assign team = site.data.team["exec"] %}     
+    {% for member in team %}
+        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
+    {% endfor %}
+</div>
+
+        <p><br><p>     
+            
 <div class="">
         <h2><span>Past Executive Boards</span></h2>
         <h3>2022-2023 (Seventh Invitational)</h3>
