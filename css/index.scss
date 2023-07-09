@@ -4,6 +4,7 @@
 
 @import 'colors';
 
+/* Front Stuff */
 html, body {
     height: 100%;
     margin: 0;
@@ -89,22 +90,6 @@ p {
     text-align: center;
 }
 
-
-.nav-link {
-    color: white;
-}
-
-.nav-item {
-    margin-left: 10px
-}
-.dropdown-menu {
-	background-color: rgba(0, 0, 0, 0);
-}
-
-.dropdown-item {
-    color: white;
-}
-
 .prim {
     background-color: $blue;
 }
@@ -139,12 +124,6 @@ a:hover {
 
 a:focus {
     color: whitesmoke;
-}
-
-.dropdown-item:hover {
-    color: whitesmoke;
-    box-shadow: none;
-    background-color: transparent;
 }
 
 .navbar-brand {
