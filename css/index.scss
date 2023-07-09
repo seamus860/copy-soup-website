@@ -15,7 +15,7 @@ body {
     background: url({{ site.baseurl }}/img/s8.jpg) no-repeat center;
     background-repeat: no-repeat;
     background-size: cover;
-    font: 'Caveat';
+    font: 'open sans';
     font-weight: 400;
 }
 
@@ -37,9 +37,9 @@ body {
 .front-text {
     color: #EEEDEA;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: -5px;
-    text-shadow: 0 0 0 black;
+    text-shadow: 0 0 5px black;
 }
 
 .front-detail-text {
@@ -98,9 +98,7 @@ p {
     margin-left: 10px
 }
 .dropdown-menu {
-    font-size: 14px;
-    background-color: #efefef;
-    border-radius: 0;
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .dropdown-item {
@@ -124,11 +122,9 @@ p {
     }
 
     .dropdown-menu {
-        border-bottom: 3px solid $blue;
-        border-left: 3px solid $blue;
-        border-right: 3px solid $blue;
-        border-top: 0;
-        margin-top: 10.5px;
+        border-radius: 0;
+        border: none;
+        margin-top: 8px;
         margin-left: -18px;
     }
 }
@@ -193,6 +189,68 @@ a:focus {
 .plain-content-box {
     border-image: none;
     border-color: $blue;
+}
+
+/*Top Navbar*/
+
+.nav-item {
+    margin-left: 10px
+}
+
+#top-nav {
+    background-color: #efefef;
+    border-bottom: 3px solid $blue;
+    font-weight: 400;
+}
+
+.navbar-toggler {
+    vertical-align: middle;
+}
+
+.nav-link {
+    color: $blue;
+}
+
+.nav-link:hover {
+    color: $alt-blue;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dropdown-menu {
+    font-size: 14px;
+    background-color: #efefef;
+    border-radius: 0;
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        border-bottom: 3px solid $blue;
+        border-left: 3px solid $blue;
+        border-right: 3px solid $blue;
+        border-top: 0;
+        margin-top: 10.5px;
+        margin-left: -18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu {
+        border: 0;
+    }
+
+    .dropdown-item {
+        margin-bottom: 10px;
+    }
+}
+
+.dropdown-item {
+    color: $blue;
+}
+
+.dropdown-item:hover {
+    background-color: #efefef;
+    color: $alt-blue;
 }
 
 /* Bottom Navbar */
