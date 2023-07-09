@@ -4,7 +4,6 @@
 
 @import 'colors';
 
-/* Front Stuff */
 html, body {
     height: 100%;
     margin: 0;
@@ -90,6 +89,22 @@ p {
     text-align: center;
 }
 
+
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    margin-left: 10px
+}
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.dropdown-item {
+    color: white;
+}
+
 .prim {
     background-color: $blue;
 }
@@ -124,6 +139,12 @@ a:hover {
 
 a:focus {
     color: whitesmoke;
+}
+
+.dropdown-item:hover {
+    color: whitesmoke;
+    box-shadow: none;
+    background-color: transparent;
 }
 
 .navbar-brand {
@@ -168,68 +189,6 @@ a:focus {
 .plain-content-box {
     border-image: none;
     border-color: $blue;
-}
-
-/*Top Navbar*/
-
-.nav-item {
-    margin-left: 10px
-}
-
-#top-nav {
-    background-color: #efefef;
-    border-bottom: 3px solid $blue;
-    font-weight: 400;
-}
-
-.navbar-toggler {
-    vertical-align: middle;
-}
-
-.nav-link {
-    color: $blue;
-}
-
-.nav-link:hover {
-    color: $alt-blue;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.dropdown-menu {
-    font-size: 14px;
-    background-color: #efefef;
-    border-radius: 0;
-}
-
-@media (min-width: 992px) {
-    .dropdown-menu {
-        border-bottom: 3px solid $blue;
-        border-left: 3px solid $blue;
-        border-right: 3px solid $blue;
-        border-top: 0;
-        margin-top: 10.5px;
-        margin-left: -18px;
-    }
-}
-
-@media (max-width: 991px) {
-    .dropdown-menu {
-        border: 0;
-    }
-
-    .dropdown-item {
-        margin-bottom: 10px;
-    }
-}
-
-.dropdown-item {
-    color: $blue;
-}
-
-.dropdown-item:hover {
-    background-color: #efefef;
-    color: $alt-blue;
 }
 
 /* Bottom Navbar */
